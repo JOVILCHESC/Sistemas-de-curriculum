@@ -1,0 +1,7 @@
+.box {
+    background-color: #08417d; /* Color de fondo deseado */
+    padding: 160px; /* Espacio entre el contenido y el borde del cuadro */
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
