@@ -2,7 +2,7 @@ import React from 'react'
 
 const BuscarEmpresaScreen = () => {
   return (
-    <div>Buscar Empresa</div>
+    <div>Buscar compañia</div>
   )
 }
 
