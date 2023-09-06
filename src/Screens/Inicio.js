@@ -11,10 +11,10 @@ function InicioScreen() {
           Encuentra la oferta que más te convenga y pagás solo lo necesario, no importa el tamaño de tu empresa.
         </h4>
         <Button variant="primary" size="lg" active>
-          Dar chamba
+          Empleador
         </Button>{' '}
         <Button variant="primary" size="lg" active>
-          Buscar chamba
+          Profesional
         </Button>
         </div>
     </section>
