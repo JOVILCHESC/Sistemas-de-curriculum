@@ -4,7 +4,6 @@ import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom';
 
 function InicioScreen() {
-  //utilizar react route para dirigirse de una ventana a otra mediante el boton de login
   return (
     <section className={styles.inicioContainer}>
       <div className={styles.box}>
