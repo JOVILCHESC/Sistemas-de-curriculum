@@ -1,17 +1,18 @@
 import React from 'react'
 import { Container, Navbar, Nav, NavDropdown } from 'react-bootstrap';
-import {BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
-import BuscarEmpresaScreen from '../Screens/BuscarEmpresa';
-import EmpleadoresScreen from '../Screens/Empleadores';
-import InicioScreen from '../Screens/Inicio';
+import {Link} from "react-router-dom";
+// import BuscarEmpresaScreen from '../Screens/BuscarEmpresa';
+// import EmpleadoresScreen from '../Screens/Empleadores';
+// import InicioScreen from '../Screens/Inicio';
+// import RegistroEmpleador from '../Screens/EmpleadorRegistro';
 
 const NavbarComponent = () => {
   return (
-    <Router>
+    // <Router>
       <div>
         <Navbar expand="lg" className="bg-body-tertiary">
         <Container>
-          <Navbar.Brand href="#home" style={{ marginRight: '550px' }}>Empleo Vita</Navbar.Brand>
+          <Navbar.Brand as={Link} to={"/home"} href="#home" style={{ marginRight: '550px' }}>Empleo Vita</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
@@ -34,14 +35,17 @@ const NavbarComponent = () => {
         </Container>
       </Navbar>
     </div>
-    <div>
-    <Routes> {/* Cambia a "Routes" */}
-          <Route path="/link1" element={<BuscarEmpresaScreen />} /> {/* Usa "element" */}
-          <Route path="/link2" element={<EmpleadoresScreen />} /> {/* Usa "element" */}
-          <Route path="/home" element={<InicioScreen />} /> {/* Usa "element" */}
-        </Routes>
-    </div>
-  </Router>
+    // <div>
+    // {/* <Routes> Cambia a "Routes" */}
+          // {/* <Route path="/" element={<InicioScreen />} /> Usa "element" */}
+          // {/* <Route path="/home" element={<InicioScreen />} /> Usa "element" */}
+          // {/* <Route path="/link1" element={<BuscarEmpresaScreen />} /> Usa "element" */}
+          // {/* <Route path="/link2" element={<EmpleadoresScreen />} /> Usa "element" */}
+          // {/* <Route path="/registro-empleador" element={<RegistroEmpleador />} /> Usa "element" */}
+          // {/* <Route path="/registro-profesional" element={<RegistroProfesional />} /> Usa "element" */}
+    // {/* </Routes> */}
+    // {/* </div> */}
+  // {/* </Router> */}
   );
 }
 
