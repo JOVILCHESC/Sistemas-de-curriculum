@@ -7,7 +7,7 @@ const RegistroEmpleador = () => {
     buttonText: 'Registrar Empleador',
     showTermsAndConditions: true,
     isEmployer: true,
-    registrationType: 'Empresa',
+    
   };
   return (
     <div>

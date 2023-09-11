@@ -91,7 +91,6 @@ Register.propTypes = {
   buttonText: PropTypes.string.isRequired,
   showTermsAndConditions: PropTypes.bool.isRequired,
   isEmployer: PropTypes.bool.isRequired,
-  registrationType: PropTypes.string.isRequired,
 };
 
 export default Register;

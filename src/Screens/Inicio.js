@@ -8,16 +8,16 @@ function InicioScreen() {
   return (
     <section className={styles.inicioContainer}>
       <div className={styles.box}>
-        <h1 className={styles.title}>Escoge tu chamba.</h1>
+        <h1 className={styles.title}>Escoge tu mejor opción.</h1>
         <h4 className={styles.description}>
-          {/* "Conéctate al éxito: Donde los talentos y oportunidades se encuentran." */}
-          Encuentra la chamba que más te convenga y chambea feliz.
+          Conéctate al éxito: Donde los talentos y oportunidades se encuentran.
+
         </h4>
         <Link to="/registro-empleador">              {/*Empleador */}
-          <Button variant="primary" size="lg" active>Dar Chamba</Button>
+          <Button variant="primary" size="lg" active>Empleador</Button>
         </Link>{' '}
         <Link to="/registro-profesional">            {/*Profesional */}
-          <Button variant="primary" size="lg" active>Buscar Chamba</Button>
+          <Button variant="primary" size="lg" active>Profesional</Button>
         </Link>
         </div>
     </section>

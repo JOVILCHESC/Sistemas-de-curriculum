@@ -7,7 +7,6 @@ const RegistroProfesional = () => {
     formTitle: 'Registro de Profesional',
     buttonText: 'Registrar Profesional',
     showTermsAndConditions: true,
-    registrationType: 'Profesional',
   };
 
   return (
