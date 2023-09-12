@@ -7,6 +7,8 @@ const RegistroProfesional = () => {
     formTitle: 'Registro de Profesional',
     buttonText: 'Registrar Profesional',
     showTermsAndConditions: true,
+    isEmployer: false,
+    showFechaNacimiento: true,
   };
 
   return (
