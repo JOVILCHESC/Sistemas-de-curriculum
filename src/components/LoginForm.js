@@ -2,7 +2,9 @@ import React from 'react';
 
 const Login = () => {
   return (
-    <div>LoginForm</div>
+    <div>LoginForm
+      {/* necesit saber si se arreglo el proyecto:( */}
+    </div>
   );
 }
 
